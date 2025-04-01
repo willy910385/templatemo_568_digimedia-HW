@@ -17,10 +17,10 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v1.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="preload" href="assets/css/fontawesome.css" as="style">
+    <link rel="preload" href="assets/css/templatemo-digimedia-v1.css" as="style">
+    <link rel="preload" href="assets/css/animated.css" as="style">
+    <link rel="preload" href="assets/css/owl.css" as="style">
 <!--
 
 TemplateMo 568 DigiMedia
@@ -61,25 +61,23 @@ https://templatemo.com/tm-568-digimedia
   </div>
 
 
+
   <div class="demos" id="demos">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <div class="demo-item">
-            <a href="homepage_1.html"><img src="assets/images/demo-1.webp" alt="DigiMedia - variation 1" width="300" height="770"></a>
-            <h4>Version 1</h4>
+            <img src="assets/images/demo-1.webp" alt="DigiMedia - variation 1" width="300" height="770">            <h4>Version 1</h4>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="demo-item">
-            <a href="homepage_2.html"><img src="assets/images/demo-2.webp" alt="DigiMedia - variation 2" width="300" height="770"></a>
-            <h4>Version 2</h4>
+            <img src="assets/images/demo-2.webp" alt="DigiMedia - variation 1" width="300" height="770">            <h4>Version 2</h4>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="demo-item">
-            <a href="homepage_3.html"><img src="assets/images/demo-3.webp" alt="DigiMedia - variation 3" width="300" height="770"></a>            <h4>Version 3</h4>
-          </div>
+            <img src="assets/images/demo-3.webp" alt="DigiMedia - variation 1" width="300" height="770">          </div>
         </div>
       </div>
     </div>
@@ -99,7 +97,7 @@ https://templatemo.com/tm-568-digimedia
 
 
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <link rel="preload" href="vendor/jquery/jquery.min.js" as="script">
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
